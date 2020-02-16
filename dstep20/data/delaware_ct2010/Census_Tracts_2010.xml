@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+<idinfo>
+<citation>
+<citeinfo>
+<origin/>
+<title>Census Tracts 2010</title>
+<geoform>vector digital data</geoform>
+<othercit>Data aggregated from US Census Bureau sources by the Delaware Census State Data Center</othercit>
+<onlink>http://firstmap.gis.delaware.gov/arcgis/rest/services/Society/DE_Census_Blocks_Tracts_2010/FeatureServer/1</onlink>
+<onlink>http://stateplanning.delaware.gov/census_data_center/</onlink>
+</citeinfo>
+</citation>
+<descript>
+<abstract>Census tracts for Delaware, from the 2010 TIGER shapefiles collection, with population and housing unit counts from the 2010 Census Redistricting Data (Public Law 94-171) Summary File.</abstract>
+<purpose>For use in planning and economic development applications. or any other applications that can make use of population and housing unit counts.</purpose>
+</descript>
+<status>
+<progress>Complete</progress>
+<update>As needed</update>
+</status>
+<spdom>
+<bounding>
+<westbc>-75.789023</westbc>
+<eastbc>-74.984165</eastbc>
+<northbc>39.839516</northbc>
+<southbc>38.451132</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>ISO 19115 Topic Category</themekt>
+<themekey>Society</themekey>
+</theme>
+<place>
+<placekt>Delaware Place Thesauru</placekt>
+<placekey>Sussex</placekey>
+<placekey>Delaware</placekey>
+<placekey>Kent</placekey>
+<placekey>New Castle</placekey>
+</place>
+</keywords>
+<accconst>None</accconst>
+<useconst>The State of Delaware makes no warranty or representation, expressed or implied, with respect to the quality, content, accuracy, completeness, currency, or non-infringement of proprietary rights, of any of the GIS or other data or information, or any other materials and items, that are displayed or made available for download from this site. All such data, information, items and materials (collectively, the “FirstMap Data”) are provided &amp;quot;as is&amp;quot; and users are fully and solely responsible for any consequences of use. FirstMap Data may have been created from a variety of sources, including sources beyond the control of the State of Delaware, and are subject to change without notice. To the extent you use, apply, add to, modify or implement this information in your own information system or other setting, or otherwise for your own purposes, you do so at your own risk. In no event shall the State of Delaware or its agencies, officers, employees, agents, or representatives be liable for any damages of any kind or nature whatsoever including, but not limited to, direct, indirect, special, punitive, incidental, exemplary or consequential damages arising from your downloading, modifying, sharing, distributing, or using of FirstMap Data even if notified of the possibility of such damages.  Further, the State of Delaware does not accept liability for any damages or misrepresentation caused by inaccuracies in the FirstMap Data or as a result of changes to the FirstMap Data, nor is there responsibility assumed to maintain the FirstMap Data in any manner or form.</useconst>
+<ptcontac>
+<cntinfo>
+<cntorgp>
+<cntorg>Delaware Census State Data Center, Office of State Planning Coordination</cntorg>
+<cntper>Mike Mahaffie</cntper>
+</cntorgp>
+<cntpos>Principal Planner</cntpos>
+<cntaddr>
+<addrtype>mailing and physical</addrtype>
+<address>122 William Penn Street</address>
+<address>Third Floor</address>
+<city>Dover</city>
+<state>DE</state>
+<postal>19901</postal>
+<country>US</country>
+</cntaddr>
+<cntvoice>(302) 739-3090</cntvoice>
+<cntfax>(302) 739-6958</cntfax>
+<cntemail>mike.mahaffie@state.de.us</cntemail>
+</cntinfo>
+</ptcontac>
+<datacred>Delaware Census State Data Center and the US Census Bureau</datacred>
+<native>Microsoft Windows Vista Version 6.0 (Build 6002) Service Pack 2; ESRI ArcCatalog 9.3.1.3500</native>
+</idinfo>
+<spdoinfo>
+<direct>Vector</direct>
+<ptvctinf>
+<sdtsterm>
+<sdtstype>GT-polygon composed of chains</sdtstype>
+<ptvctcnt>0</ptvctcnt>
+</sdtsterm>
+</ptvctinf>
+</spdoinfo>
+<eainfo>
+<detailed>
+<enttyp>
+<enttypl>Delaware Census Tracts, with Population and Housing Units</enttypl>
+</enttyp>
+<attr>
+<attrlabl>OBJECTID</attrlabl>
+<attrdef>Internal feature number.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+</attr>
+<attr>
+<attrlabl>SHAPE.AREA</attrlabl>
+</attr>
+<attr>
+<attrlabl>SHAPE.LEN</attrlabl>
+</attr>
+<attr>
+<attrlabl>Population</attrlabl>
+<attrdef>2010 Census Population Count</attrdef>
+<attrdefs>US Census Bureau</attrdefs>
+</attr>
+<attr>
+<attrlabl>Housing_Un</attrlabl>
+<attrdef>2010 Census Housing Unit Count</attrdef>
+<attrdefs>US Census Bureau</attrdefs>
+</attr>
+<attr>
+<attrlabl>Shape</attrlabl>
+<attrdef>Feature geometry.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+</attr>
+<attr>
+<attrlabl>NAMELSAD10</attrlabl>
+<attrdef>2010 Census translated legal/statistical area description and the census tract name</attrdef>
+<attrdefs>US Census Bureau</attrdefs>
+</attr>
+<attr>
+<attrlabl>NAME10</attrlabl>
+<attrdef>2010 Census census tract name, this is the census tract code converted to an integer or integer plus two-digit decimal if the last two characters of the code are not both zeros.</attrdef>
+<attrdefs>US Census Bureau</attrdefs>
+</attr>
+</detailed>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntorgp>
+<cntorg>Delaware Census State Data Center, Office of State Planning Coordination</cntorg>
+<cntper>Mike Mahaffie</cntper>
+</cntorgp>
+<cntpos>Principal Planner</cntpos>
+<cntaddr>
+<addrtype>mailing and physical</addrtype>
+<address>122 William Penn Street</address>
+<address>Third Floor</address>
+<city>Dover</city>
+<state>DE</state>
+<postal>19901</postal>
+<country>AF</country>
+</cntaddr>
+<cntvoice>(302) 739-3090</cntvoice>
+<cntfax>(302) 739-6958</cntfax>
+<cntemail>mike.mahaffie@state.de.us</cntemail>
+</cntinfo>
+</distrib>
+<distliab>See access and use constraints information.</distliab>
+</distinfo>
+<metainfo>
+<metd>20110304</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>Delaware Census State Data Center, Office of State Planning Coordination</cntorg>
+<cntper>Mike Mahaffie</cntper>
+</cntorgp>
+<cntpos>Principal Planner</cntpos>
+<cntaddr>
+<addrtype>mailing and physical</addrtype>
+<address>122 William Penn Street</address>
+<address>Third Floor</address>
+<city>Dover</city>
+<state>DE</state>
+<postal>19901</postal>
+<country>US</country>
+</cntaddr>
+<cntvoice>(302) 739-3090</cntvoice>
+<cntfax>(302) 739-6958</cntfax>
+<cntemail>mike.mahaffie@state.de.us</cntemail>
+</cntinfo>
+</metc>
+<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<mettc>local time</mettc>
+</metainfo>
+</metadata>
